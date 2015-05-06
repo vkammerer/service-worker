@@ -1,0 +1,23 @@
+{
+  "name": "service-worker",
+  "version": "0.0.0",
+  "description": "First attempt at using the service worker API",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vkammerer/service-worker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkammerer/service-worker/issues"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "homepage": "https://github.com/vkammerer/service-worker",
+  "dependencies": {
+    "express": "^4.12.3",
+    "serve-static": "^1.9.2"
+  }
+}
