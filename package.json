@@ -13,6 +13,7 @@
     "url": "https://github.com/vkammerer/service-worker/issues"
   },
   "scripts": {
+    "postinstall": "bower install",
     "start": "node server.js"
   },
   "homepage": "https://github.com/vkammerer/service-worker",

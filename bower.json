@@ -1,0 +1,19 @@
+{
+  "name": "service-worker",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vkammerer/service-worker",
+  "authors": [
+    "Vincent <vkammerer@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cache-polyfill": "https://github.com/coonsta/cache-polyfill.git"
+  }
+}
