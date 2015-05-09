@@ -1,6 +1,5 @@
 importScripts('../bower_components/cache-polyfill/index.js');
 
-
 var initCache = function initCache () {
 	caches.open('v1').then(function(cache) {
 		return cache.addAll([
