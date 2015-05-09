@@ -35,5 +35,7 @@
   ],
 	"start_url": "/app/index.html",
 	"display": "standalone",
-	"orientation": "portrait"
+	"orientation": "portrait",
+	"gcm_sender_id": "137566949302",
+	"gcm_user_visible_only": true
 }

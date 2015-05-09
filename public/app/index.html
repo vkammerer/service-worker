@@ -18,17 +18,10 @@
 		<li>> page settings</li>
 		<li>> "Add to homescreen"</li>
 	</ul>
+	<h3>Push notifications</h3>
+	<button class="js-push-button" disabled> 
+	  Enable Push Messages  
+	</button>
 	<script type="text/javascript" src="script.js"></script>
-	<script>
-		if ('serviceWorker' in navigator) {
-		  navigator.serviceWorker.register('./sw.js', {
-		    scope: '/app/'
-		  }).then(function(reg) {
-		    console.log('Yay!', reg);
-		  }).catch(function(err) {
-		    console.log('Boo!', err);
-		  });
-		}
-	</script>
 </body>
 </html>

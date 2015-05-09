@@ -20,6 +20,7 @@
   "dependencies": {
     "bower": "latest",
     "express": "^4.12.3",
+    "node-gcm": "^0.9.15",
     "serve-static": "^1.9.2"
   }
 }

@@ -1,5 +1,6 @@
 importScripts('../bower_components/cache-polyfill/index.js');
 
+console.log('ok');
 
 var initCache = function initCache () {
 	caches.open('v1').then(function(cache) {
@@ -30,6 +31,24 @@ self.addEventListener('fetch', function(event) {
     })
   );
 })
+
+self.addEventListener('push', function(event) {  
+  console.log('Received a push message', event);
+
+  var title = 'Yay a message.';  
+  var body = 'We have received a push message.';  
+  var icon = '/app/img/launcher-icon-2x.png';  
+  var tag = 'simple-push-demo-notification-tag';
+
+  event.waitUntil(  
+    self.registration.showNotification(title, {  
+      body: body,  
+      icon: icon,  
+      tag: tag  
+    })  
+  );  
+});
+
 
 /*
 	Custom response example
